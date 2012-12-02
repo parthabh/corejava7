@@ -17,6 +17,13 @@
 			<version>4.11</version>
 		</dependency>
 
+		<!-- Performance testing framework. -->
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>contiperf</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
 		<!-- Logging -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -39,6 +46,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
