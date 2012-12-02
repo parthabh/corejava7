@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 public class ConnectionFactory {
 	private final static Logger logger = LoggerFactory.getLogger(ConnectionFactory.class);
 
+	// A connection factory. There is no connection pooling in this one. 
 	public static Connection getOracleConnection(String db, String username, String password) {
 		Connection connection = null;
 		try {

@@ -19,6 +19,6 @@ public class ConnectionFactoryTest {
 				"foobar", "foobar");
 		assertNotNull(connection);
 		connection.close();
+		
 	}
-
 }
